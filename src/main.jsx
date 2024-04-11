@@ -9,7 +9,7 @@ import {
 import "./index.css";
 
 const client = new ApolloClient({
-  uri: "https://graphql-pokemon.vercel.app/",
+  uri: "https://pokemonsapp.vercel.app/",
   cache: new InMemoryCache(),
 });
 
